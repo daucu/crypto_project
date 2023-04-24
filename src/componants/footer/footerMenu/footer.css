@@ -1,0 +1,64 @@
+.footer {
+    width: 100%;
+    background-image: linear-gradient(to right, #894bda, #7f44d5, #743dcf, #6936ca, #5d2fc5);
+    display: flex;
+    padding: 8% 17%;
+    justify-content: space-between;
+}
+
+.firstColom {
+    width: 30%;
+}
+
+.firstColom p {
+    color: rgb(173, 173, 173);
+    margin-block: 25px;
+    line-height: 2;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(230, 227, 227);
+    width: 100px;
+    cursor: pointer;
+}
+
+h3 {
+
+    color: rgba(255, 255, 255, 0.938);
+}
+
+h4 {
+    color: rgba(255, 255, 255, 0.911);
+}
+
+.NavlinksBox {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.NavlinksBox p {
+    color: rgb(173, 173, 173);
+    margin: 10px 0 10px 10px;
+}
+.NavlinksBox p:hover{
+    color: gold;
+}
+
+.fourthColom {
+    width: 25%;
+}
+
+.fourthColom p {
+    color: rgb(173, 173, 173);
+    margin-block: 13px;
+    cursor: pointer;
+}
+.fourthColom p:hover{
+    color: gold;
+}
+.fourthColom h3{
+    margin-bottom: 10px;
+}

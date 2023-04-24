@@ -1,0 +1,109 @@
+.secondpairBottom {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #894bda, #7f44d5, #743dcf, #6936ca, #5d2fc5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 15%;
+}
+
+.secondpairBottom h1 {
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+
+.secondpairBottom p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.secondpairBottomContainer {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.secondpairBottomContainerLeftToken {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.serialNo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 174, 0);
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.secondpairBottomContainerLeftToken h3 {
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.secondpairBottomContainerLeftToken p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 3px;
+}
+
+
+.secondpairBottomContainerRight{
+    width: 47.5%;
+    height: 100%;
+    background-color: #794dda;
+    border-radius: 20px;
+    text-align: center;
+    padding-block: 40px;
+}
+.secondpairBottomContainerRight h3 {
+    font-weight: 600;
+    color: #fff;
+    margin-bottom:  20px;
+}
+.timerContainer{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding-block: 20px;
+    margin-bottom: 40px;
+    background-color: #6d45c4;
+}
+.timerContainer h3{
+    margin: 0;
+}
+.buyingBtn{
+    width: 80%;
+    height: 50px;
+    background-image: linear-gradient(to right top, #f9b406, #f4ad04, #eea603, #e99f02, #e39801);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin: auto;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition:  all .5s ease;
+    cursor: pointer;
+}
+.buyingBtn:hover{
+    transform: translateY(-10px);
+    background-image: linear-gradient(to right top, #e39801, #e99f02, #eea603, #f4ad04, #f9b406);
+}

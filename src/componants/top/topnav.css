@@ -1,0 +1,109 @@
+.topnav {
+    width: 100%;
+    height: 150vh;
+    background-image: linear-gradient(to right, #894bda, #7f44d5, #743dcf, #6936ca, #5d2fc5);
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15%;
+    margin-bottom: 80px;
+}
+
+.navbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+}
+
+.navbarItems div {
+    margin-inline: 20px;
+}
+
+.navbarItems div:hover {
+    color: #ff9900;
+}
+
+.navbarItemsBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    color: white;
+    background-color: #ff9900;
+    height: 50px;
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out;
+    font-weight: 600;
+}
+.navbarItemsBtn:hover{
+    background-color: white;
+    color: blueviolet;
+    transform: translateY(-10px);
+}
+
+
+/* -------------------------------------------------------------- */
+
+.topnavContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15%;
+}
+
+.topnavContentLeftTitle h1 {
+    color: white;
+    font-size: 4.2rem;
+    word-spacing: .5px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    margin-block: 10px;
+}
+
+.topnavContentLeftTitle p {
+    margin-block: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+.topnavContentLeftBtns{
+    display: flex;
+    margin-block: 30px;
+    
+}
+.topnavContentLeftBtns div{
+    margin-right: 10px;
+}
+
+.topnavContentLeftSocials{
+    display: flex;
+    margin-block: 70px;
+    margin-right: 20px;
+    
+}
+.topnavContentLeftSocials div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    
+}
+
+.topnavContentRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5%;
+}

@@ -1,0 +1,58 @@
+.fourthPair{
+    width: 100%;
+    height: 100%;
+    background-color: #eefaff;
+    padding: 8% 15%;
+    text-align: center;
+}
+.fourthPair h1{
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #333232;
+    margin-bottom: 20px;      
+}
+.fourthPair p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #686666;
+    
+}
+.searchBar{
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    margin-top: 40px;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.searchBar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #686666;
+}
+.signBtn{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    color: white;
+    background-image: linear-gradient(to right top, #f9b406, #f4ad04, #eea603, #e99f02, #e39801);
+    height: 50px;
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out;
+    font-weight: 600;
+    margin: auto;
+    cursor: pointer;
+}
+.signBtn:hover{
+    background-image: linear-gradient(to right top, #e39801, #e99f02, #eea603, #f4ad04, #f9b406);
+}

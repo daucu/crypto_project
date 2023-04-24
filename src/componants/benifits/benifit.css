@@ -1,0 +1,168 @@
+.benifits {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 4.5rem;
+    text-align: center;
+}
+
+.benifitsTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.benifitsTitle h1 {
+    margin: 20px;
+}
+
+.benifitsTitle p {
+    color: gray;
+    font-weight: 500;
+}
+
+
+.benifitsdown {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+
+.benifitsdownFirst{
+    position: relative;
+    top: 50px;
+}
+
+.benifitsdownFirst .box {
+    display: flex;
+}
+
+.benifitsdownFirst .box:nth-child(2) {
+  position: relative;
+  left: -20px;
+}
+.benifitsdownFirst .box:nth-child(3) {
+  position: relative;
+  left: -20px;
+}
+.boxTexts {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+}
+
+.boxTexts h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #272626;
+    margin-bottom: 1rem;
+}
+
+.boxTexts p {
+    font-weight: 300;
+    color: #585757;
+}
+
+.boxIcon {
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 2px -3px 22px 7px rgba(227, 224, 227, 1);
+    -moz-box-shadow: 2px -3px 22px 7px rgba(227, 224, 227, 1);
+    box-shadow: 2px -3px 22px 7px rgba(227, 224, 227, 1);
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.boxIcon:hover{
+    transform: translateY(-10px);
+}
+
+.boxIcon .logo {
+    width: 2rem;
+    height: 2rem;
+    color: rgb(255, 208, 0);
+}
+
+
+
+/* --------------------------------------------------------------------------------- */
+
+
+
+
+.benifitsdownThird{
+    position: relative;
+    top: 50px;
+}
+
+.benifitsdownThird .box {
+    display: flex;
+
+}
+
+.benifitsdownThird .box:nth-child(2) {
+  position: relative;
+  left: 40px;
+}
+ .box:nth-child(3) {
+  position: relative;
+  left: 40px;
+}
+.benifitsdownThird .boxTexts {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+.boxTexts h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #272626;
+    margin-bottom: 1rem;
+}
+
+.boxTexts p {
+    font-weight: 300;
+    color: #585757;
+}
+
+.boxIcon {
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 2px -3px 22px 7px rgba(227, 224, 227, 1);
+    -moz-box-shadow: 2px -3px 22px 7px rgba(227, 224, 227, 1);
+    box-shadow: 2px -3px 22px 7px rgba(227, 224, 227, 1);
+    margin-top: 10px;
+}
+
+.boxIcon .logo {
+    width: 2rem;
+    height: 2rem;
+    color: rgb(255, 208, 0);
+}
+

@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Benifits from './componants/benifits/benifits';
+import FirstBottom from './componants/top/firstBottom/firstBottom';
+import Team from './componants/team/Team';
+import Topnav from './componants/top/topnav';
+import SecondPairUpper from './componants/secondPair/secondPairUpper';
+import SecondpairBottom from './componants/secondPair/secondpairBottom/secondpairBottom';
+import ThirdPairUpper from './componants/thirdPair/thirdPairUpper';
+import ThirdPairBottom from './componants/thirdPair/thirdPairBottom/thirdPairBottom';
+import Fourthpair from './componants/footer/fourthpair';
+import Footer from './componants/footer/footerMenu/footer';
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      < Topnav />
+      <FirstBottom  />
+      <SecondPairUpper />
+      <SecondpairBottom />
+       <Benifits />  
+      < ThirdPairUpper />
+      <ThirdPairBottom /> 
+      <Team />
+      <Fourthpair />
+      <Footer />
+
     </div>
   );
 }
